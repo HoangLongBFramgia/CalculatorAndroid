@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_0"
+        android:layout_weight="@integer/three"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_margin="@dimen/dimen_20"
+            android:background="@android:color/transparent"
+            android:inputType="number"
+            android:textSize="@dimen/dimen_result" />
+
+        <TextView
+            android:id="@+id/tv_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="@dimen/dimen_20"
+            android:textSize="@dimen/dimen_result" />
+    </LinearLayout>
+
+    <include
+        layout="@layout/line_clear"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_0"
+        android:layout_weight="@integer/one" />
+
+    <include
+        layout="@layout/line_operator"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_0"
+        android:layout_weight="@integer/one" />
+
+    <include
+        layout="@layout/line789"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_0"
+        android:layout_weight="@integer/one" />
+
+    <include
+        layout="@layout/line456"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_0"
+        android:layout_weight="@integer/one" />
+
+    <include
+        layout="@layout/line123"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_0"
+        android:layout_weight="@integer/one" />
+
+    <include
+        layout="@layout/line0"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_0"
+        android:layout_weight="@integer/one" />
+
+</LinearLayout>

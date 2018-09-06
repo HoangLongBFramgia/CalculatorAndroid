@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_0.5"
+        android:background="@color/color_brown_100" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="@integer/four">
+
+        <RelativeLayout
+            android:id="@+id/rl_7"
+            android:layout_width="@dimen/dimen_0"
+            android:layout_height="match_parent"
+            android:layout_weight="@integer/one"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/number_7"
+                android:textColor="@color/color_material_gray_600"
+                android:textSize="@dimen/dimen_button_text" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="@dimen/dimen_0.5"
+            android:layout_height="match_parent"
+            android:background="@color/color_brown_100" />
+
+        <RelativeLayout
+            android:id="@+id/rl_8"
+            android:layout_width="@dimen/dimen_0"
+            android:layout_height="match_parent"
+            android:layout_weight="@integer/one"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/number_8"
+                android:textColor="@color/color_material_gray_600"
+                android:textSize="@dimen/dimen_button_text" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="@dimen/dimen_0.5"
+            android:layout_height="match_parent"
+            android:background="@color/color_brown_100" />
+
+        <RelativeLayout
+            android:id="@+id/rl_9"
+            android:layout_width="@dimen/dimen_0"
+            android:layout_height="match_parent"
+            android:layout_weight="@integer/one"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/number_9"
+                android:textColor="@color/color_material_gray_600"
+                android:textSize="@dimen/dimen_button_text" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="@dimen/dimen_0.5"
+            android:layout_height="match_parent"
+            android:background="@color/color_brown_100" />
+
+        <RelativeLayout
+            android:id="@+id/rl_multiply"
+            android:layout_width="@dimen/dimen_0"
+            android:layout_height="match_parent"
+            android:layout_weight="@integer/one"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/operator_multi"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/dimen_button_text" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_0.5"
+        android:background="@color/color_brown_100" />
+
+</LinearLayout>

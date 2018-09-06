@@ -1,3 +1,37 @@
 <resources>
-    <string name="app_name">CalculatorAndroid</string>
+    <string name="app_name">Calculator</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="number_0">0</string>
+    <string name="number_1">1</string>
+    <string name="number_2">2</string>
+    <string name="number_3">3</string>
+    <string name="number_4">4</string>
+    <string name="number_5">5</string>
+    <string name="number_6">6</string>
+    <string name="number_7">7</string>
+    <string name="number_8">8</string>
+    <string name="number_9">9</string>
+    <string name="operator_add">+</string>
+    <string name="operator_minus">-</string>
+    <string name="operator_multi">x</string>
+    <string name="operator_div">/</string>
+    <string name="result">=</string>
+    <string name="operator_percent">%</string>
+    <string name="dot">.</string>
+    <string name="negative">+/-</string>
+    <string name="diary">Nhật ký</string>
+    <string name="backspace">backspace</string>
+    <string name="bracket">( )</string>
+    <string name="clear">C</string>
+    <string name="add">add</string>
+    <string name="minus">minus</string>
+    <string name="mutil">multi</string>
+    <string name="div">div</string>
+    <string name="item_clear">Item Clear</string>
+    <string name="item_save">Item Save</string>
+    <string name="clear_all">Clear All</string>
+    <string name="save">Save</string>
+
 </resources>
